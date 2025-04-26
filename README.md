@@ -1,3 +1,3 @@
 <!-- @format -->
 
-Module 7 task a Number Analyzer assignment - ##ostad
+Module 7 task a Photo Gallery App - ##ostad
