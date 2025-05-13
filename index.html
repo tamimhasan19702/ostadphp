@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delicious Bites</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Delicious Bites</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Welcome to Delicious Bites</h1>
+          <p>Experience the taste of authentic cuisine made with love and fresh ingredients.</p>
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        </div>
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" class="img-fluid" alt="Hero Image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Menu</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="card-img-top" alt="Dish 1" />
+            <div class="card-body">
+              <h5 class="card-title">Grilled Chicken</h5>
+              <p class="card-text">Juicy grilled chicken served with seasonal vegetables.</p>
+              <p class="fw-bold">$12.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" class="card-img-top" alt="Dish 2" />
+            <div class="card-body">
+              <h5 class="card-title">Pasta Delight</h5>
+              <p class="card-text">Creamy Alfredo pasta topped with parmesan and herbs.</p>
+              <p class="fw-bold">$10.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" class="card-img-top" alt="Dish 3" />
+            <div class="card-body">
+              <h5 class="card-title">Classic Burger</h5>
+              <p class="card-text">Beef burger with cheese, lettuce, tomato, and special sauce.</p>
+              <p class="fw-bold">$9.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" class="img-fluid" alt="About Us" />
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>At Delicious Bites, we are passionate about creating memorable meals. Our chefs use only the freshest ingredients to craft dishes that delight every palate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>123 Food Street, Flavor Town</p>
+      <p>Open Daily: 10 AM - 10 PM</p>
+      <p>Email: info@deliciousbites.com | Phone: (123) 456-7890</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
